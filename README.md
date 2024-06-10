@@ -14,7 +14,7 @@ This is my first project learning the Django framework. This project consists of
   - **Description:** Prints out "Hello, Hazem!"
 
 - **URL:** `http://127.0.0.1:8000/hello/<name>`
-  - **Description:** Prints out "Hello, <name>!"
+  - **Description:** Prints out "Hello, Name!"
 
 ## 2. NewYear
 
