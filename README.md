@@ -1,28 +1,30 @@
 # learn_django
-This is my first project learning django framework
-This project consist of 3 apps 
 
-First one is hello 
-  http://127.0.0.1:8000/hello/
-  printing out "Hello, World!"
+This is my first project learning the Django framework. This project consists of 3 apps:
 
-  http://127.0.0.1:8000/hello/mahmoud
-  printing out "Hello, Mahmoud!"
+## 1. Hello
 
-  http://127.0.0.1:8000/hello/hazem
-  printing out "Hello, Hazem!"
+- **URL:** `http://127.0.0.1:8000/hello/`
+  - **Description:** Prints out "Hello, World!"
 
-  http://127.0.0.1:8000/hello/<name>
-  printing out "Hello, <name>!"
+- **URL:** `http://127.0.0.1:8000/hello/mahmoud`
+  - **Description:** Prints out "Hello, Mahmoud!"
 
-Second one is newyear
-  http://127.0.0.1:8000/newyear/
-  Checks if it is newyear and print YES or NO.
+- **URL:** `http://127.0.0.1:8000/hello/hazem`
+  - **Description:** Prints out "Hello, Hazem!"
 
+- **URL:** `http://127.0.0.1:8000/hello/<name>`
+  - **Description:** Prints out "Hello, <name>!"
 
-Third one is tasks
-  http://127.0.0.1:8000/tasks/
-  defult page that shows the tasks you added and a link to add tasks
+## 2. NewYear
 
-  http://127.0.0.1:8000/tasks/add
-  you can add tasks to defult page and a link to defult page
+- **URL:** `http://127.0.0.1:8000/newyear/`
+  - **Description:** Checks if it is New Year's Day and prints "YES" or "NO".
+
+## 3. Tasks
+
+- **URL:** `http://127.0.0.1:8000/tasks/`
+  - **Description:** Default page that shows the tasks you have added and provides a link to add tasks.
+
+- **URL:** `http://127.0.0.1:8000/tasks/add`
+  - **Description:** You can add tasks to the default page and get a link back to the default page.
